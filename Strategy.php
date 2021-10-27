@@ -38,7 +38,7 @@ class Printer implements Strategy
     }
 }
 
-class CreateFile implements Strategy
+class FileCreator implements Strategy
 {
     public function fileAction($filename, $content)
     {
