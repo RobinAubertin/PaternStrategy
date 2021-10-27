@@ -18,6 +18,7 @@ class Context
     {
         $filename = "text.md";
         $content = "Test content";
+        $this->strategy->fileAction($filename, $content);
     }
 }
 
